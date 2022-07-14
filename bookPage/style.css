@@ -1,0 +1,138 @@
+.b{
+    font-size: 40px;
+    text-align: center;
+}
+.c{
+    font-size: 50px;
+    text-align: center;
+}
+ul {list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    position: -webkit-sticky;
+    position: sticky;
+    top: o;
+    font-size: 35px;
+    background-color: white;
+    padding: 10px 0 10px 0;
+}
+body{
+    background-image:
+     url(https://t3.ftcdn.net/jpg/03/44/67/38/360_F_344673825_6fU6IORyipkYpfU1mg2vmxtHxDToUO6Q.jpg) 
+     ;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    font-family: 'Segoe UI';
+}
+
+.header-container{
+    background-color: white;
+    border-radius: 10px;
+}
+li{float: left;
+}
+li a {
+    display: inline;
+   color: rgb(230, 230, 230);
+   text-align: center;
+   padding-right: 60px;
+   padding-top: 10px;
+   padding-left: 30px;
+   text-decoration: none;
+   font-size: 40px;
+}
+.most_read{padding:50px ;
+    height: 800px;
+     color: gold; 
+     /* background-color: white; */
+     display: grid;
+    grid-template-columns: repeat(5,18%);
+    grid-template-rows: 10px, repeat(2,250px) 20px,30px;
+    gap: 2%;
+    font-size: 25px;
+}
+.text_center{
+text-align: center;
+}
+img{
+    border-radius:5px;
+}
+.see_more{
+    grid-area: 4/3/4/3;
+    align-content: center;
+    text-shadow: 1px;
+    background-color: white;
+    font-size: 50px;
+    border:2px solid rgba(255, 0, 0, 0.705) ;
+    border-radius: 10px;
+}
+
+.see_more:hover{
+    background-color: black;
+    color: white!important;
+}
+.most{
+    grid-area: 1/1/1/6;
+    background-color: black;
+    border-radius: 5px;
+    
+}
+.most h1,h4{
+    color: white;
+}
+.trending{padding: 50px ;
+    height: 400px;
+     color: gold; 
+     /* background-color: rgba(0, 0, 0, 0.911); */
+     display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-template-rows: 10px, 250px 20px, 10px ;
+    gap: 2%;
+    font-size: 25px;
+
+}
+.latest{padding: 50px ;
+    height: 400px;
+     color: gold; 
+     /* background-color: white; */
+     display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-template-rows: 10px, 250px 20px, 30px ;
+    gap: 2%;
+    font-size: 25px;
+
+}
+a:link{
+    color:white ;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 255, 255)!important;
+    text-decoration: none;  
+    background-color: rgb(36, 33, 33);
+}
+a:visited{
+    color: gold;
+    text-decoration: none;
+}
+.latest{padding: 50px ;
+    height: 500px;
+     color: gold; 
+     /* background-color: white; */
+     display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    grid-template-rows: 10px, 250px 20px, 30px ;
+    gap: 2%;
+    font-size: 25px;}
+
+.about_us{
+    background-color: purple;
+}
+.black_bg{
+    background-color: black;
+    font-size: 50px;
+}
